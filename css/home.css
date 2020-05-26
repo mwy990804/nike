@@ -1,0 +1,286 @@
+body{
+	margin: 0px auto;
+}
+.top{
+	position: sticky;
+	top: 0px;
+	width: 1518px;
+	z-index: 3;
+}
+.txtbar{
+	height:30px;
+	border:1px solid gainsboro;
+	border-bottom: 0px;
+	border-right: 0px;
+	background-color: white;
+	line-height: 30px;
+}
+.txtbar ul{
+	display: inline-block;
+}
+.txtbar ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	font-weight:400;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.left{
+	float: left;
+	margin: 0px;
+}
+.right{
+	float: right;
+	margin: 0px;
+}
+.txtbar a{
+	color:#757575;
+	text-decoration: none;
+}
+.txtbar a:hover{
+	text-decoration: underline;
+}
+.txtbar span {
+	color:#757575;
+	margin:15px;
+	font-family:Arial;
+}
+.text{
+	background: url(../img/nike.jpg) 0px 2px no-repeat;
+	height:75px;
+	border:1px solid gainsboro;
+	border-right: 0px;
+	background-color: white;
+	margin: 0px auto;
+	padding: 0px;
+}
+.pic{
+	width: 900px;
+	position: sticky;
+	padding-left: 200px;
+	display: inline-block;
+}
+.pic a{
+	display: inline-block;
+	color: black;
+	font-size: 17px;
+	color:black;
+	text-decoration: none;
+	line-height: 75px;
+	margin-left: 120px;
+}
+.pic a:hover{
+	text-decoration: underline;
+}
+.search {
+	float:right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.searchinput {
+	width:150px;
+	height:31px;
+	border:1px solid gray;
+	line-height:30px;
+	padding-left:10px;
+	float:right;
+}
+.searchbtn {
+	background: url(../img/s.jpg)0 0 no-repeat;
+	width:35px;
+	height:35px;
+	float:left;
+	border:none;
+	cursor:pointer; 
+}
+.pic2{
+	width: 1500px;
+	height:800px;
+	}
+.word{
+	margin-top: 40px;
+	width: 1518px;
+	height: 150px;
+}
+ul{
+	list-style: none;
+	text-align: center;
+}
+.word li:first-child{
+	font-size: 20px;
+	font-family: "宋体";
+}
+.word ul li:nth-child(2){
+	font-size: 50px;
+	font-family: "Bodoni MT Black";
+	font-weight: 1000px;
+}
+.word ul li:nth-child(3){
+	font-size: 25px;
+	font-family: "宋体";
+	font-weight: 100px;
+}
+.word ul li:nth-child(4){
+	font-size: 25px;
+	font-family: "宋体";
+	font-weight: 100px;
+}
+.button{
+	text-align: center;
+	background-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	color: white;
+	width:120px;
+	height: 40px;
+	font-size: 20px;
+	padding-top:9px;
+	margin-left: 700px;
+	margin-top: 30px ;
+}
+.button a{
+	color: white;
+}
+#four{
+	width: 1518px;
+	height:800px;
+}
+#four p{
+	margin-left: 30px;
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: "黑体";
+	font-weight: 300;
+}
+.pic3{
+	width: 1500px;
+	height:750px;
+}
+#five{
+	margin-top:30px;
+	width: 1518px;
+	height:800px;
+	display: inline-block;
+}
+#five p{
+	margin-top: 30px; 
+	font-size: 30px;
+	font-family: "黑体";
+	font-weight: 300;
+	margin-left: 30px;
+}
+.m{
+	display: inline-block;
+	background: url(../img/pic4.jpg) 0 0 no-repeat;
+	width:450px;
+	height: 600px;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+.w{
+	display: inline-block;
+	background: url(../img/pic5.jpg) 0 0 no-repeat;
+	width:450px;
+	height: 600px;
+	margin-right: 40px;
+}
+.l{
+	display: inline-block;
+	background: url(../img/pic6.jpg) 0 0 no-repeat;
+	width:450px;
+	height: 600px;
+}
+.button2{
+	text-align: center;
+	background-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	color: white;
+	width:100px;
+	height: 30px;
+	font-size: 15px;
+	padding-top:9px;
+	margin-left: 150px;
+	margin-top: 550px ;
+}
+#six{
+	background-color: black; 
+	width:1518px;
+	height:300px;
+	bottom: 0px;
+	left: 0px;
+	display: inline-block;
+} 
+.wz ul{
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	margin:30px;
+	margin-top: 30px;
+    line-height: 30px; 
+	text-align: left;
+	list-style: none;
+} 
+.wz a{
+	color:white;
+	text-decoration: none; 
+}
+.wz a:hover{
+	text-decoration: none;
+}
+.x{
+	font-size: 12px;
+	color:gainsboro;
+}
+.x a{
+	color: gray;
+}
+.last{
+	border-top:1px solid darkgray;
+	width:1400px;
+	margin-left: 50px;
+}
+.last ul{
+	display: inline-block;
+}
+.last li{
+	display: inline-block;
+	list-style:none;
+	font-size: 11px;
+	color:gray;
+	padding-right: 15px;
+	margin-top: 3px;
+}
+.left1{
+	float: left;
+	margin: 0;
+}
+.right1{
+	float: right;
+	margin: 0;
+}
+.imgBox{
+	width: 1518px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.imgBox img{
+	width: 1518px;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.img1{
+	display: block;
+}
+.img2{
+	display: none;
+}
+.img3{
+	display: none;
+}
+.img4{
+	display: none;
+}

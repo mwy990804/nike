@@ -1,0 +1,366 @@
+body{
+	margin: 0px auto;
+}
+.top{
+	position: sticky;
+	top: 0px;
+	width: 1518px;
+	z-index: 3;
+}
+.txtbar{
+	height:30px;
+	border:1px solid gainsboro;
+	border-bottom: 0px;
+	border-right: 0px;
+	background-color: white;
+	line-height: 30px;
+}
+.txtbar ul{
+	display: inline-block;
+}
+.txtbar ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	font-weight:400;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.left{
+	float: left;
+	margin: 0px;
+}
+.right{
+	float: right;
+	margin: 0px;
+}
+.txtbar a{
+	color:#757575;
+	text-decoration: none;
+}
+.txtbar a:hover{
+	text-decoration: underline;
+}
+.txtbar span {
+	color:#757575;
+	margin:15px;
+	font-family:Arial;
+}
+.text{
+	background: url(../img/nike.jpg) 0px 2px no-repeat;
+	height:75px;
+	border:1px solid gainsboro;
+	border-right: 0px;
+	background-color: white;
+	margin: 0px auto;
+	padding: 0px;
+}
+.pic{
+	width: 900px;
+	position: sticky;
+	padding-left: 200px;
+	display: inline-block;
+}
+.pic a{
+	display: inline-block;
+	color: black;
+	font-size: 17px;
+	color:black;
+	text-decoration: none;
+	line-height: 75px;
+	margin-left: 120px;
+}
+.pic a:hover{
+	text-decoration: underline;
+}
+.search {
+	float:right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.searchinput {
+	width:150px;
+	height:31px;
+	border:1px solid gray;
+	line-height:30px;
+	padding-left:10px;
+	float:right;
+}
+.searchbtn {
+	background: url(../img/s.jpg)0 0 no-repeat;
+	width:35px;
+	height:35px;
+	float:left;
+	border:none;
+	cursor:pointer; 
+}
+.middle{
+	margin-top: 50px;
+	height: 1750px;
+	width: 1450px;
+}
+.goods dt{
+	float:left;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.goods dt p img{
+	width: 450px;
+	margin-right: 20px;
+	z-index: 1;
+}
+.goods dd{
+	margin-left: 1050px;
+	margin-right: 20px;
+}
+#box1{
+	position:absolute;
+	width:450px;
+}
+#box1 img{
+	width:100%;
+	height:100%;
+}
+#mark1{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:225px;
+	height:225px;
+	background:#000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	cursor:move; 
+	}
+#boxRight1{
+	display:none;
+	position:absolute;
+	top:168px;
+	left:510px;
+	width:350px;
+	height:350px;
+	border: 1px solid black;
+	overflow:hidden;
+	z-index: 2;
+}
+#boxRight1 img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:200%;
+	height:200%;
+	z-index: 2;
+}
+#box2{
+	margin-left: 470px;
+	position:absolute;
+	width:450px;
+}
+#box2 img{
+	width:100%;
+	height:100%;
+}
+#box3{
+	margin-top: 580px;
+	position:absolute;
+	width:450px;
+}
+#box3 img{
+	width:100%;
+	height:100%;
+}
+#box4{
+	margin-top: 580px;
+	margin-left: 470px;
+	position:absolute;
+	width:450px;
+}
+#box4 img{
+	width:100%;
+	height:100%;
+}
+#box5{
+	margin-top: 1160px;
+	position:absolute;
+	width:450px;
+}
+#box5 img{
+	width:100%;
+	height:100%;
+}
+#box6{
+	margin-top: 1160px;
+	margin-left: 470px;
+	position:absolute;
+	width:450px;
+}
+#box6 img{
+	width:100%;
+	height:100%;
+}
+.goods dd p{
+	font-size: 16px;
+	line-height:40px;
+}
+#style1{
+	background-image: url(../img/style1.png);
+}
+#style2{
+	background-image: url(../img/style2.png);
+}
+#style3{
+	background-image: url(../img/style3.png);
+}
+.style{
+	border: 0px;
+}
+.style:focus{
+	border: 1.5px solid black;
+	outline: none;
+}
+.size{
+	font-size: 18px;
+    border-radius: 4px;
+	border: 1px solid gainsboro;
+	background-color: white;
+	margin-bottom: 4px;
+}
+.size:hover{
+	border: 1.5px solid black;
+}
+.size:focus{
+	color: white;
+	border: 1px solid black;
+	background-color: black;
+	outline: none;
+}
+.buy{
+	font-size: 18px;
+	color: white;
+	border-radius: 50px;
+	border: 0px;
+	background-color: black;
+	margin-top: 10px;
+}
+.buy:hover{
+	background-color: #464646;
+}
+.buy:focus{
+	outline: none;
+}
+.like{
+	font-size: 18px;
+	color: black;
+	border-radius: 50px;
+	border: 1px solid gainsboro;
+	background-color: white;
+	margin-top: 10px;
+}
+.like:hover{
+	border: 1.5px solid black;
+}
+.like:focus{
+	outline: none;
+}
+.detail{
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+}
+.detail:hover{
+	text-decoration: underline;
+}
+.peisong{
+	font-size: 22px;
+	line-height: 50px;
+}
+.special{
+	font-size: 16px;
+	color: black;
+}
+.pingjia{
+	font-size: 22px;
+	line-height: 50px;
+}
+.pingjia span{
+	color: #DCDCDC;
+	font-size: 20px;
+}
+.write{
+	font-size: 16px;
+	color: black;
+}
+.chat{
+	color: black;
+	font-size: 15px;
+}
+.other{
+	width: 1450px;
+	margin-left: 60px;
+	margin-right: 30px;
+}
+.other1{
+	font-size: 22px;
+}
+.other2{
+	float: left;
+	padding-right: 20px;
+}
+#six{
+	background-color: black; 
+	width:1518px;
+	height:300px;
+	bottom: 0px;
+	left: 0px;
+	display: inline-block;
+} 
+.wz ul{
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+	margin:30px;
+	margin-top: 30px;
+    line-height: 30px; 
+	text-align: left;
+	list-style: none;
+} 
+.wz a{
+	color:white;
+	text-decoration: none; 
+}
+.wz a:hover{
+	text-decoration: none;
+} 
+.x{
+	font-size: 12px;
+	color:gainsboro;
+}
+.x a{
+	color: gray;
+}
+.last{
+	border-top:1px solid darkgray;
+	width:1400px;
+	margin-left: 50px;
+}
+.last ul{
+	display: inline-block;
+}
+.last li{
+	display: inline-block;
+	list-style: none;
+	font-size: 11px;
+	color:gray;
+	padding-right: 15px;
+	margin-top: 3px;
+}
+.left1{
+	float: left;
+	margin: 0px;
+}
+.right1{
+	float: right;
+	margin: 0px;
+}
