@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<style>
+			@import url("css/home.css");
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="txtbar">
+				<ul class="left">
+					<li><a href="#">NIKE会员<span>|</span></a></li>
+					<li><a href="#">Air Jordan</a></li>
+				</ul>
+				<ul class="right">
+					<li><a href="http://127.0.0.1:8848/nike/login.html">加入/登陆NIKE会员账户</a><span>|</span></li>
+					<li><a href="http://127.0.0.1:8848/nike/help.html">帮助</a><span>|</span></li>
+					<li><a href="http://127.0.0.1:8848/nike/gouwuche.html#">购物车</a></li>
+				</ul>
+			</div>
+			<div class="text">
+				<div class="pic">
+					<a href="#">男子</a>
+					<a href="#">女子</a>
+					<a href="#">儿童</a>
+					<a href="#">专属定制</a>
+					<a href="#">流行潮品</a>
+				</div>
+				<div class="search">
+					<input type="text" class="searchinput" placeholder="搜索"/>
+					<input type="button" class="searchbtn" />
+				</div>
+			</div>
+		</div>
+		<div id="three">
+			<div class="imgBox">
+			    <img class="img-slide img1" src="img/pic2.jpg" alt="1">
+			    <img class="img-slide img2" src="img/shouye1.png" alt="2">
+			    <img class="img-slide img3" src="img/shouye2.png" alt="3">
+				<img class="img-slide img3" src="img/shouye3.png" alt="4">
+			</div>
+			<div class="word">
+				<ul>
+					<li>日常提速，它靠得住</li>
+					<li>NIKE AIR ZOOM PEGASUS 37</li>
+					<li>前足搭载增厚ZOOM AIR，如你添翼。</li>
+					<li>全新37代，现已上市</li>
+				</ul>
+			</div>
+			<div class="button"><a href="#">立即选购</a></div>
+		</div>
+		<div id="four">
+			<P>会员中心</P>
+			<div ><img class="pic3" src="img/pic3.jpg" /></div>
+		</div>
+		<div id="five">
+			<p>为你推荐</p>
+			<div class="m">
+				<div class="button2">男子热销</div>
+			</div>
+			<div class="w">
+				<div class="button2">女子热销</div>
+			</div>
+			<div class="l">
+				<div class="button2">流行潮品</div>
+			</div>
+		</div>
+		<div id="six">
+			<div class="wz">
+				<ul>
+					<li><a href="#">电子礼品卡</a></li>
+					<li><a href="#">企业团购</a></li>
+					<li><a href="#">附近商店</a></li>
+					<li><a href="#">订阅电子邮件</a></li>
+					<li><a href="#">注册NIKE会员</a></li>
+					<li><a href="#">网站反馈</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">获得帮助</a></li>
+					<li class="x"><a href="#">订单状态</a></li>
+					<li class="x"><a href="#">配送方式</a></li>
+					<li class="x"><a href="#">退换货</a></li>
+					<li class="x"><a href="#">付款选项</a></li>
+					<li class="x"><a href="#">联系我们</a></li>
+				</ul>
+				<ul class="g">
+					<li><a href="#">关于NIKE</a></li>
+					<li class="x"><a href="#">新闻</a></li>
+					<li class="x"><a href="#">投资者</a></li>
+					<li class="x"><a href="#">招贤纳士</a></li>
+					<li class="x"><a href="#">新品预览</a></li></br>
+				</ul>
+			</div>
+			<div class="last">
+				<ul class="left1">
+					<li>中国大陆</li>
+					<li>@2020 Nike.lnc.保留所有权</li>
+				</ul>
+				<ul class="right1">
+					<li>分类浏览</li>
+					<li>使用条款</li>
+					<li>销售条款</li>
+					<li>隐私政策</li>
+					<li>沪ICP备14009339号</li>
+					<li>上海工商</li>
+					<li>沪公网安备31011002000177号</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var index=0;
+		//改变图片
+		function ChangeImg() {
+			index++;
+			var a=document.getElementsByClassName("img-slide");
+			if(index>=a.length) index=0;
+			for(var i=0;i<a.length;i++){
+				a[i].style.display='none';
+			}
+			a[index].style.display='block';
+		}
+		//设置定时器，每隔两秒切换一张图片
+		setInterval(ChangeImg,2000);
+	</script>
+</html>
